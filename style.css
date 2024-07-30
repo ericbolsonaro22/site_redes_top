@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+a:hover{
+    transition: 2s;
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: large;
+    padding: 20px;
+}
+
+@media (min-width: 500px) and (max-width:1624px){
+    body{
+        background-color: cornflowerblue;
+        color: white;
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background-color: cadetblue;
+        padding: 10px;
+    }
+    
+    a:hover{
+        transition: 2s;
+        font-size: 1.5rem;
+    }
+    
+    p{
+        font-size: large;
+        padding: 20px;
+        color: brown;
+    }
+}
